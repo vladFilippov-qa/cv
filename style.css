@@ -20,11 +20,18 @@
     --sectionbg: #ffffff;
     --buttoncolor: #ffffff;
   }
+html {
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  
 }
 
 body {
   font-family: "Helvetica";
-  background-color: var(--bg);
   color: var(--text);
   display: flex;
   flex-direction: column;
